@@ -7,15 +7,15 @@ public class Tabeller {
 
 	// a)
 	public static void skrivUt(int[] tabell) {
-		System.out.println(tabell1);
+		int[]tabellUt = new int[tabell1.length];
+		System.out.println(tabellUt);
 		
 	}
 
 	// b)
 	public static String tilStreng(int[] tabell) {
-
-		// TODO
-		throw new UnsupportedOperationException("tilStreng ikke implementert");
+		String streng = Integer.toString(tabell1);
+		System.out.println(streng);
 		
 	}
 
