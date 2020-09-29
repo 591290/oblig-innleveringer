@@ -1,13 +1,14 @@
 package no.hvl.dat100.lab5.tabeller;
 
 public class Tabeller {
+	
+	private static int[] tabell1 = { 1, 4, 6 };
+	
 
 	// a)
 	public static void skrivUt(int[] tabell) {
-
-		// TODO
-		throw new UnsupportedOperationException("skrivUt ikke implementert");
-
+		System.out.println(tabell1);
+		
 	}
 
 	// b)
