@@ -3,20 +3,20 @@ package no.hvl.dat100.lab5.tabeller;
 public class Tabeller {
 	
 	private static int[] tabell1 = { 1, 4, 6 };
-	
+	private static int[] tabell2 = { 1 };
+	private static int[] tabell3 = {};
 
 	// a)
 	public static void skrivUt(int[] tabell) {
-		int[]tabellUt = new int[tabell1.length];
-		System.out.println(tabellUt);
-		
+		Tabeller.skrivUt(tabell1);
+		Tabeller.skrivUt(tabell2);
+		Tabeller.skrivUt(tabell3);
 	}
 
 	// b)
 	public static String tilStreng(int[] tabell) {
-		String streng = Integer.toString(tabell1);
-		System.out.println(streng);
-		
+		return null;
+	
 	}
 
 	// c)
